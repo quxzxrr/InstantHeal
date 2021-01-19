@@ -6,6 +6,7 @@ Very simple Heal plugin, you can download it [here](https://www.spigotmc.org/res
 messages:
   healMessage: "You are healed."
   consoleMessage: "Only players can use this command!"
+  permissionMessage: "You don't have permission to do that!"
 ```
 # My links:
 [VKontakte](https://vk.com/quxzxrr)
