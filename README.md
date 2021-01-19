@@ -7,5 +7,5 @@ messages:
   healMessage: "You are healed."
   consoleMessage: "Only players can use this command!"
 ```
-# Links:
+# My links:
 [VK](vk.com/quxzxrr)
