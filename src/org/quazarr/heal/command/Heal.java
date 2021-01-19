@@ -19,19 +19,22 @@ public class Heal implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
-		String em = plugin.getCustomConfig().getString("messages.consoleMessage");
+		String cm = plugin.getCustomConfig().getString("messages.consoleMessage");
 		String hm = plugin.getCustomConfig().getString("messages.healMessage");
+		String pm = plugin.getCustomConfig().getString("messages.permissionMessage");
 		
 		if (!(sender instanceof Player)) {
-			sender.sendMessage(em);
+			sender.sendMessage(cm);
 			return true;
 		}
 		
 		Player p = (Player) sender;
-		
+
 		if (p.hasPermission("heal.use")) {
 			p.setHealth(20);
 			p.sendMessage(hm);
+		} else { 
+			p.sendMessage(pm);
 		}
 		
 		return false;

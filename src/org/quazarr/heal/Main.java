@@ -11,26 +11,26 @@ import org.quazarr.heal.command.Heal;
 
 public class Main extends JavaPlugin {
 	
-    private File customConfigFile;
-    private FileConfiguration customConfig;
+    private File ccf;
+    private FileConfiguration cc;
     
     private void createCustomConfig() {
-        customConfigFile = new File(getDataFolder(), "config.yml");
-        if (!customConfigFile.exists()) {
-            customConfigFile.getParentFile().mkdirs();
+        ccf = new File(getDataFolder(), "config.yml");
+        if (!ccf.exists()) {
+            ccf.getParentFile().mkdirs();
             saveResource("config.yml", false);
          }
 
-        customConfig= new YamlConfiguration();
+        cc= new YamlConfiguration();
         try {
-            customConfig.load(customConfigFile);
+            cc.load(ccf);
         } catch (IOException | InvalidConfigurationException e) {
             e.printStackTrace();
         }
     }
     
     public FileConfiguration getCustomConfig() {
-        return this.customConfig;
+        return this.cc;
     }
 
 	@Override
