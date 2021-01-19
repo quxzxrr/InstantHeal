@@ -1,11 +1,5 @@
 # InstantHeal
-Very simple Heal plugin!
-
-# Commands
-- /heal - Heal the player
-
-# Permissions
-- heal.use - Use /heal command
+Very simple Heal plugin, you can download it [here](https://www.spigotmc.org/resources/instantheal.88042/download?version=378418)
 
 # config.yml
 ```
