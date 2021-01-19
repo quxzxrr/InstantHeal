@@ -1,0 +1,2 @@
+# InstantHeal
+Simple Heal plugin
