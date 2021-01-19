@@ -8,4 +8,4 @@ messages:
   consoleMessage: "Only players can use this command!"
 ```
 # My links:
-[VK](vk.com/quxzxrr)
+[VKontakte](vk.com/quxzxrr)
