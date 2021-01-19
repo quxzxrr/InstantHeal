@@ -1,0 +1,9 @@
+main: org.quazarr.heal.Main
+name: Heal
+version: 1.0
+author: quazarr
+description: Player healing plugin
+
+commands:
+  heal:
+   aliases: [heal]

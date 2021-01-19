@@ -1,0 +1,3 @@
+messages:
+  healMessage: "You are healed."
+  consoleMessage: "Only players can use this command!"
