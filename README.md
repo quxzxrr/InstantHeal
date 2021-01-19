@@ -8,6 +8,7 @@ Very simple Heal plugin!
 - heal.use - Use /heal command
 
 # config.yml
-```messages:
+```
+messages:
   healMessage: "You are healed."
-  consoleMessage: "Only players can use this command!"```
+  consoleMessage: "Only players can use this command!"
